@@ -1,0 +1,138 @@
+# Dictionary Quiz:
+# Question 1:
+# What is the output of the following code?
+# my_dict = {'a': 1, 'b': 2, 'c': 3}
+# print(len(my_dict))
+# a) 1
+# b) 2
+# c) 3
+# d) 4
+
+# c (3ans)
+
+# Question 2:
+# Which method is used to add a new key-value pair to a dictionary?
+# a) add()
+# b) insert()
+# c) append()
+# d) update()
+
+# d (update())
+
+# Question 3:
+# Consider the following dictionary:
+# my_dict = {'name': 'python', 'age': 30, 'city': 'Tadepalligudem'}
+# How can you access the value associated with the key 'age'?
+# a) my_dict.get('age')
+# b) my_dict['age']
+# c) my_dict.value('age')
+# d) my_dict.retrieve('age')
+
+#a,b (ans)
+
+# Question 4:
+# What happens if you try to access a key that doesn't exist in a dictionary using
+# square brackets notation?
+# a) It returns None.
+# b) It raises a KeyError.
+# c) It returns False.
+# d) It adds the key to the dictionary.
+
+# a (It returns None.)
+
+# Question 5:
+# Which of the following methods returns a list of all the keys in a dictionary?
+# a) keys()
+# b) get_keys()
+# c) all_keys()
+# d) list_keys()
+
+# a (keys())
+
+
+# Task 1: Dictionary Update
+# Write Python code to add a new key-value pair to the following dictionary:
+# my_dict = {'name': 'python', 'age': 25}
+# Your code here
+# Output should be: {'name': 'python', 'age': 25, 'city': 'west godavari'}
+
+my_dict = {'name': 'python', 'age': 25}
+my_dict.update({"city":"west godavari"})
+print(my_dict)
+
+# Task 2: Dictionary Access
+# Write Python code to access and print the value associated with the key 'price' in
+# the following dictionary:
+
+product_info = {'name': 'Laptop', 'brand': 'Dell', 'price': 1200}
+print(product_info["price"])
+print(product_info.get("price"))
+# Output should be: 1200
+
+
+# Task 3: Dictionary Removal
+# Write Python code to remove the key-value pair with the key 'city' from the
+# following dictionary:
+
+my_dict = {'name': 'python', 'age': 30, 'city': 'Bhimavaram'}
+print(my_dict.pop("city"))
+print(my_dict)
+
+# Output should be: {'name': 'John', 'age': 30}
+
+# Task 4: Dictionary Keys
+# Write Python code to print all the keys present in the following dictionary:
+
+my_dict = {'name': 'python', 'age': 25, 'city': 'Rajahmundry'}
+print(my_dict.keys())
+
+
+# Output should be: ['name', 'age', 'city']
+
+# Task 5: Dictionary Values
+# Write Python code to print all the values present in the following dictionary:
+
+my_dict = {'name': 'python', 'age': 25, 'city': 'tanuku'}
+print(my_dict.values())
+
+# Output should be: ['python', 25, 'tanuku']
+
+# Exercise 1: Dictionary Update
+# Write a Python script that updates a dictionary with a new key-value pair.
+
+a={
+    "name":"Malli",
+    "age": 23,
+    "list":[2,4,5,78,2]
+}
+b={
+    "sample":"python_life"
+}
+a.update(b)
+print(a)
+
+# Exercise 2: Dictionary Access
+# Write a Python script that accesses and prints the value associated with a specific
+# key in a dictionary.
+
+sample={"name":"Raju","age":24,"city":"hyderabad"}
+print(sample.get("city"))
+
+# Exercise 3: Dictionary Removal
+# Write a Python script that removes a key-value pair from a dictionary.
+
+sample={"name":"Raju","age":24,"city":"hyderabad"}
+sample.pop("city")
+print(sample)
+
+# Exercise 4: Dictionary Keys
+# Write a Python script that prints all the keys present in a dictionary.
+
+sample={"name":"Raju","age":24,"city":"hyderabad"}
+print(sample.keys())
+
+# Exercise 5: Dictionary Values
+# Write a Python script that prints all the values present in a dictionary.
+
+sample={"name":"Raju","age":24,"city":"hyderabad"}
+print(sample.values())

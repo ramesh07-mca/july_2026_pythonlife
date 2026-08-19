@@ -30,6 +30,3 @@ print(s[::-1])
 
 s = "python programming is fun"
 print(s.title())
-
-
-print("Welcome")
